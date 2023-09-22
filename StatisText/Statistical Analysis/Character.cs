@@ -23,11 +23,11 @@ namespace Statistical_Analysis
             {
                 if (char.IsUpper(c))        //Uppercase letter
                 {
-                    return 11 + 2 * ((int)c % (int)'A');
+                    return 11 + 2 * ((int)c - (int)'A');
                 }
                 else                        //Lowercase letter
                 {
-                    return 10 + 2 * ((int)c % (int)'a');
+                    return 10 + 2 * ((int)c - (int)'a');
                 }
             }
             else                            //It's a symbol
