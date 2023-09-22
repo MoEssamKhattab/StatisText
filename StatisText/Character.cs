@@ -17,11 +17,11 @@ public class Character
             {
                 if (char.IsUpper(c))        //I's an uppercase letter//
                 {
-                    return 11 + 2 * ((int)c - (int)'A');
+                    return 11 + 2 * ((int)c % (int)'A');
                 }
                 else                        //It's a lowercase letter//
                 {
-                    return 10 + 2 * ((int)c - (int)'a');
+                    return 10 + 2 * ((int)c % (int)'a');
                 }
             }
             else                            //It's a symbol//
