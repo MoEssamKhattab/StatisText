@@ -26,7 +26,7 @@ public class Character
             }
             else                            //It's a symbol//
             {
-                return 1000; //Do nothing
+                return -1; //Do nothing
             }
         }
     }
